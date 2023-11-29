@@ -1,0 +1,14 @@
+name: Nothingness
+
+on:
+  push:
+
+jobs:
+  nothing:
+    name: Nothing
+    
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Nothing
+        run: echo "Nothing!"
